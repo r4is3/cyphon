@@ -49,9 +49,9 @@ RUN apk add -U --no-cache \
 && ln -s /usr/lib/libgdal.so.20 /usr/lib/libgdal.so \
 && ln -s /usr/lib/libgeos_c.so.1 /usr/lib/libgeos_c.so \
 && apk add -U --no-cache \
-      --repository http://dl-5.alpinelinux.org/alpine/edge/main/ \
-      --repository http://dl-5.alpinelinux.org/alpine/edge/testing/ \
-      --repository http://dl-5.alpinelinux.org/alpine/edge/community/ \      
+      --repository http://dl-5.alpinelinux.org/alpine/v3.12/main/ \
+      --repository http://dl-5.alpinelinux.org/alpine/v3.12/testing/ \
+      --repository http://dl-5.alpinelinux.org/alpine/v3.12/community/ \      
       -t build-deps \
       build-base \
       libffi-dev \
